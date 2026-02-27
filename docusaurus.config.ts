@@ -7,8 +7,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Callisto',
   tagline: 'A fully configurable ticketing bot for Fluxer',
-  url: 'https://example.com',
-  favicon: 'img/favicon.ico',
+  url: 'https://callisto.help',
+  favicon: 'img/callistomoon.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
