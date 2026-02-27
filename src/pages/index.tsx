@@ -52,6 +52,6 @@ const features = [
   { name: 'Staff claiming',       desc: 'Staff can claim tickets so everyone knows who is handling what.' },
   { name: 'Canned responses',     desc: 'Save preset messages that staff can drop into any ticket instantly.' },
   { name: 'Idle detection',       desc: 'Automatically warn in quiet tickets and optionally close them.' },
-  { name: 'Full configuration',   desc: 'Everything is configurable per server with plain-English commands.' },
+  { name: 'Full configuration',   desc: 'Everything is configurable to your liking.' },
   { name: 'Ignored channels',     desc: "Prevent Callisto from responding in channels where it isn't needed." },
 ];
