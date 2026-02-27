@@ -49,7 +49,7 @@ Shows all current settings organized by category, with a plain-English descripti
 c!callisto config set <setting> <value>
 ```
 
-Changes a setting. See the [Configuration](/docs/configuration/configuration) page for a full list of settings and accepted values.
+Changes a setting. See the [Configuration](/docs/configuration/configuration.md) page for a full list of settings and accepted values.
 
 **Examples:**
 ```bash
@@ -97,7 +97,7 @@ Sets the emoji used for this category on the reaction panel. Required for multi-
 c!callisto panel post <#channel> [multi|single]
 ```
 
-Posts the reaction panel in the specified channel. Defaults to the mode set in `panelmode`. See the [Reaction Panels](/docs/configuration/reaction-panels) page for more details.
+Posts the reaction panel in the specified channel. Defaults to the mode set in `panelmode`. See the [Reaction Panels](/docs/configuration/reaction-panels.md) page for more details.
 ```bash
 c!callisto panel remove
 ```
@@ -111,14 +111,14 @@ c!callisto ignore remove <#channel>
 c!callisto ignore list
 ```
 
-Manages the list of channels Callisto ignores. See the [Ignored Channels](/docs/configuration/ignored-channels) page for more details.
+Manages the list of channels Callisto ignores. See the [Ignored Channels](/docs/configuration/ignored-channels.md) page for more details.
 
 ## Canned Responses
 ```bash
 c!callisto tag add <name> <text>
 ```
 
-Saves a canned response that staff can post in any ticket with `c!ticket tag <name>`. See the [Canned Responses](/docs/using-callisto/canned-responses) page for more details.
+Saves a canned response that staff can post in any ticket with `c!ticket tag <name>`. See the [Canned Responses](/docs/using-callisto/canned-responses.md) page for more details.
 
 ## Transcripts
 ```bash

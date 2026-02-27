@@ -87,7 +87,7 @@ c!ticket note User has been warned twice before for this behavior
 c!ticket tag <name>
 ```
 
-Posts a saved canned response in the current ticket. Canned responses are managed by admins using `c!callisto tag`. See the [Canned Responses](/using-callisto/canned-responses) page for more details.
+Posts a saved canned response in the current ticket. Canned responses are managed by admins using `c!callisto tag`. See the [Canned Responses](/docs/using-callisto/canned-responses.md) page for more details.
 
 **Example:**
 ```bash
