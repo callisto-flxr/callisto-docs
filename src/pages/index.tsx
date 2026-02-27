@@ -5,7 +5,7 @@ import styles from './index.module.css';
 
 export default function Home(): React.ReactElement {
   return (
-    <Layout title="Callisto" description="A free, fully-featured Fluxer ticketing bot">
+    <Layout title="Callisto" description="A fully configurable Fluxer ticketing bot">
       <main className={styles.main}>
 
         <section className={styles.hero}>
