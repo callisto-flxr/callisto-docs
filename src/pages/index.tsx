@@ -47,7 +47,7 @@ export default function Home(): React.ReactElement {
 
 const features = [
   { name: 'Ticket categories',    desc: 'Organize tickets by type with per-category staff roles and channels.' },
-  { name: 'Reaction panels',      desc: 'Let members open tickets by clicking a reaction — no commands needed.' },
+  { name: 'Reaction panels',      desc: 'Let members open tickets by clicking a reaction.' },
   { name: 'HTML transcripts',     desc: 'Every closed ticket generates a full transcript posted to your log channel.' },
   { name: 'Staff claiming',       desc: 'Staff can claim tickets so everyone knows who is handling what.' },
   { name: 'Canned responses',     desc: 'Save preset messages that staff can drop into any ticket instantly.' },
