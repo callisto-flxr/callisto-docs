@@ -1,47 +1,27 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Callisto is a fully-featured ticketing bot for your Fluxer server. It lets your server members open support tickets, reports, appeals, or any other type of request. All organized, logged, and manageable by your staff team.
 
-## Getting Started
+## Features
 
-Get started by **creating a new site**.
+- Ticket categories
+- Reaction panels
+- HTML transcripts
+- Staff claiming
+- Canned responses
+- Idle detection
+- DM ticket opening
+- Full configuration
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Default prefix
 
-### What you'll need
+Callisto's default prefix is `c!`. This can be changed per server with `c!callisto config set prefix <value>`.
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Getting Help
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+If you run into any issues, join the [support server](https://fluxer.gg/gwUY9UyC) or refer to the rest of this documentation.
