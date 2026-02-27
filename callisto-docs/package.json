@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "callisto-docs",
   "version": "0.0.0",
   "private": true,
@@ -45,14 +44,4 @@
   "engines": {
     "node": ">=20.0"
   }
-=======
-  "name": "Callisto",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "private": true
->>>>>>> 3f1eb8849d8a30a53510e7f378eb641bfcad59ac
 }
