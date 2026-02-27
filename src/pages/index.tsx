@@ -19,7 +19,7 @@ export default function Home(): React.ReactElement {
             <Link className={styles.buttonPrimary} to="/docs">
               Documentation
             </Link>
-            <Link className={styles.buttonSecondary} to="#">
+            <Link className={styles.buttonSecondary} to="https://web.fluxer.app/oauth2/authorize?client_id=1473925654608011283&scope=bot&permissions=6756636731763927">
               Add to Server
             </Link>
           </div>
