@@ -32,7 +32,7 @@ export default function Home(): React.ReactElement {
                 <span className={styles.featureDot} />
                 <div>
                   <span className={styles.featureName}>{f.name}</span>
-                  <span className={styles.featureSep}> — </span>
+                  <span className={styles.featureSep}> - </span>
                   <span className={styles.featureDesc}>{f.desc}</span>
                 </div>
               </li>
