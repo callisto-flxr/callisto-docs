@@ -24,6 +24,7 @@ These commands are only available to members with the Manage Server permission. 
 | `c!callisto category edit <name> --role @NewRole` | Edit the staff role |
 | `c!callisto category edit <name> --description "New description"` | Edit the ticket description |
 | `c!callisto panel post <#channel>` | Post the reaction panel |
+| `c!callisto panel post <#channel> --only <name>` | Post the reaction panel with specified categories |
 | `c!callisto panel remove` | Remove the reaction panel |
 | `c!callisto ignore list` | View ignored channels |
 | `c!callisto ignore add <#channel>` | Ignore a channel |
