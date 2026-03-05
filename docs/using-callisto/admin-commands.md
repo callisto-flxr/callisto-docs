@@ -19,6 +19,10 @@ These commands are only available to members with the Manage Server permission. 
 | `c!callisto category remove <name>` | Delete a category |
 | `c!callisto category toggle <name>` | Open or close a category |
 | `c!callisto category emoji <name> <emoji>` | Set a category's panel emoji |
+| `c!callisto category edit <name> --channel #new-channel` | Edit the channel the tickets can be opened in |
+| `c!callisto category edit <name> --label "New Label"` | Edit the category label |
+| `c!callisto category edit <name> --role @NewRole` | Edit the staff role |
+| `c!callisto category edit <name> --description "New description"` | Edit the ticket description |
 | `c!callisto panel post <#channel>` | Post the reaction panel |
 | `c!callisto panel remove` | Remove the reaction panel |
 | `c!callisto ignore list` | View ignored channels |
@@ -28,6 +32,7 @@ These commands are only available to members with the Manage Server permission. 
 | `c!callisto tag add <name> <text>` | Save a canned response |
 | `c!callisto tag remove <name>` | Delete a canned response |
 | `c!callisto tag show <name>` | Preview a canned response |
+| `c!callisto tickets` | View all currently open tickets |
 | `c!callisto transcript <number>` | Fetch a closed ticket's transcript |
 
 ---
@@ -92,6 +97,27 @@ c!callisto category emoji <name> <emoji>
 
 Sets the emoji used for this category on the reaction panel. Required for multi-mode panels.
 
+```bash
+c!callisto category edit <name> --channel #new-channel
+```
+
+Edits the channel that the category is set to.
+```bash
+c!callisto category edit <name> --label "New Label"
+```
+
+Edit the category's label
+```bash
+c!callisto category edit <name> --role @NewRole
+```
+
+Edit the staff role for the category
+```bash
+c!callisto category edit <name> --description "New description"
+```
+
+Edit the description for the category
+
 ## Reaction Panel
 ```bash
 c!callisto panel post <#channel> [multi|single]
@@ -119,6 +145,13 @@ c!callisto tag add <name> <text>
 ```
 
 Saves a canned response that staff can post in any ticket with `c!ticket tag <name>`. See the [Canned Responses](/docs/using-callisto/canned-responses.md) page for more details.
+
+## Viewing tickets
+```bash
+c!callisto tickets
+```
+
+Fetches all currently open tickets including the channel that was created.
 
 ## Transcripts
 ```bash
