@@ -125,6 +125,11 @@ c!callisto panel post <#channel> [multi|single]
 
 Posts the reaction panel in the specified channel. Defaults to the mode set in `panelmode`. See the [Reaction Panels](/docs/configuration/reaction-panels.md) page for more details.
 ```bash
+c!callisto panel post <#channel> --only <name>,<name>
+```
+
+Posts the reaction panel with only the specified categories. **Category names are separated by a comma with *no spaces!***
+```bash
 c!callisto panel remove
 ```
 
