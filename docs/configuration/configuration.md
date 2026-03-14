@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Configuration
 
-Callisto has a wide range of settings that can be configured. To view your settings, run `c!callisto config`. To change a setting, run `c!callisto config set <setting> <value>`.
+Callisto has a wide range of settings that can be configured. To view your settings, run `c!config`. To change a setting, run `c!config set <setting> <value>`.
 
 ## Viewing settings
 ```bash
