@@ -8,14 +8,14 @@ Categories are the different types of tickets members can open in your server, f
 
 ## Listing categories
 ```bash
-c!callisto category list
+c!category list
 ```
 
 Shows all categories with their current status, emoji, channel, and staff role.
 
 ## Creating a category
 ```bash
-c!callisto category add <name> <label> <#channel>
+c!category add <name> <label> <#channel>
 ```
 
 - `<name>` - the internal name used in commands. Must be one word with no spaces, ex: `support`
@@ -24,9 +24,9 @@ c!callisto category add <name> <label> <#channel>
 
 **Examples:**
 ```bash
-c!callisto category add support "Support" #support-tickets
-c!callisto category add appeals "Appeals" #appeals-tickets
-c!callisto category add reports "Reports" #reports-tickets
+c!category add support "Support" #support-tickets
+c!category add appeals "Appeals" #appeals-tickets
+c!category add reports "Reports" #reports-tickets
 ```
 
 ### Optional flags
@@ -37,45 +37,45 @@ You can add these to the end of the create command:
 
 **Example:**
 ```bash
-c!callisto category add reports "Reports" #reports-tickets --role @Admins
+c!category add reports "Reports" #reports-tickets --role @Admins
 ```
 
 ## Removing a category
 ```bash
-c!callisto category remove <name>
+c!category remove <name>
 ```
 
 If the category has existing tickets, Callisto will warn you and ask you to confirm with `--force`.
 ```bash
-c!callisto category remove support --force
+c!category remove support --force
 ```
 
 Note that removing a category does not delete any existing tickets that were opened under it.
 
 ## Opening and closing a category
 ```bash
-c!callisto category toggle <name>
+c!category toggle <name>
 ```
 
 Toggles the category between open and closed. When a category is closed, members can no longer open tickets in it. Existing tickets are not affected.
 
 **Example:**
 ```bash
-c!callisto category toggle support
+c!category toggle support
 ```
 
 ## Setting a panel emoji
 ```bash
-c!callisto category emoji <name> <emoji>
+c!category emoji <name> <emoji>
 ```
 
 Sets the emoji used for this category on the reaction panel. Required if you are using multi-mode panels.
 
 **Examples:**
 ```bash
-c!callisto category emoji support 🔧
-c!callisto category emoji appeals ⚖️
-c!callisto category emoji reports 🚨
+c!category emoji support 🔧
+c!category emoji appeals ⚖️
+c!category emoji reports 🚨
 ```
 
 Both standard emojis and custom server emojis are supported.

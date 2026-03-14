@@ -8,21 +8,21 @@ Callisto has a wide range of settings that can be configured. To view your setti
 
 ## Viewing settings
 ```bash
-c!callisto config
+c!config
 ```
 
 This shows all your current settings organized by category, along with a description of what each one does.
 
 ## Changing a setting
 ```bash
-c!callisto config set
+c!config set
 ```
 
 **Examples:**
 ```bash
-c!callisto config set staffrole @Role
-c!callisto config set cooldown 120
-c!callisto config set usercanclose no
+c!config set staffrole @Role
+c!config set cooldown 120
+c!config set usercanclose no
 ```
 
 ## Settings reference

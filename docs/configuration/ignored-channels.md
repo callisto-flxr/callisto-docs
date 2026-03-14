@@ -8,34 +8,34 @@ Ignored channels are channels where Callisto will not respond to any commands or
 
 ## Viewing ignored channels
 ```bash
-c!callisto ignore list
+c!ignore list
 ```
 
 Shows all channels that are currently ignored.
 
 ## Ignoring a channel
 ```bash
-c!callisto ignore add #channel
+c!ignore add #channel
 ```
 
 Once added, Callisto will completely ignore all activity in that channel. Members will not get any response if they try to run commands there.
 
 **Examples:**
 ```bash
-c!callisto ignore add #general
-c!callisto ignore add #announcements
+c!ignore add #general
+c!ignore add #announcements
 ```
 
 ## Unignoring a channel
 ```bash
-c!callisto ignore remove #channel
+c!ignore remove #channel
 ```
 
 Removes the channel from the ignore list. Callisto will respond to commands there again immediately.
 
 **Example:**
 ```bash
-c!callisto ignore remove #general
+c!ignore remove #general
 ```
 
 ## Notes

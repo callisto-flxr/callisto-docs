@@ -18,30 +18,30 @@ The panel shows a single 🎫 emoji. Members click it and Callisto DMs them a nu
 
 You can set the default panel mode with:
 ```bash
-c!callisto config set panelmode multi
+c!config set panelmode multi
 ```
 or
 ```bash
-c!callisto config set panelmode single
+c!config set panelmode single
 ```
 
 ## Setting up a multi-mode panel
 
 Before posting a multi-mode panel, every enabled category needs an emoji assigned to it. Set emojis with:
 ```bash
-c!callisto category emoji <name> <emoji>
+c!category emoji <name> <emoji>
 ```
 
 **Example:**
 ```bash
-c!callisto category emoji support 🔧
-c!callisto category emoji appeals ⚖️
-c!callisto category emoji reports 🚨
+c!category emoji support 🔧
+c!category emoji appeals ⚖️
+c!category emoji reports 🚨
 ```
 
 Once all categories have emojis, post the panel:
 ```bash
-c!callisto panel post #your-channel multi
+c!panel post #your-channel multi
 ```
 
 Callisto will post the panel message and add the appropriate reactions automatically.
@@ -50,14 +50,14 @@ Callisto will post the panel message and add the appropriate reactions automatic
 
 Single mode does not require category emojis. Just post the panel:
 ```bash
-c!callisto panel post #your-channel single
+c!panel post #your-channel single
 ```
 
 When a member clicks 🎫, Callisto will DM them a list of categories to choose from. They reply with the number of the category they need and their ticket is opened.
 
 ## Removing a panel
 ```bash
-c!callisto panel remove
+c!panel remove
 ```
 
 This deletes the panel message and stops Callisto from watching it for reactions.
