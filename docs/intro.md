@@ -20,7 +20,7 @@ Callisto is a fully-featured ticketing bot for your Fluxer server. It lets your 
 
 ## Default prefix
 
-Callisto's default prefix is `c!`. This can be changed per server with `c!callisto config set prefix <value>`.
+Callisto's default prefix is `c!`. This can be changed per server with `c!config set prefix <value>`.
 
 ## Getting Help
 
