@@ -10,57 +10,57 @@ Canned responses are preset messages that staff can drop into any ticket with a 
 
 | Command | Description |
 |---|---|
-| `c!callisto tag add <name> <text>` | Save a new canned response |
-| `c!callisto tag remove <name>` | Delete a canned response |
-| `c!callisto tag list` | View all saved canned responses |
-| `c!callisto tag show <name>` | Preview a canned response |
+| `c!tag add <name> <text>` | Save a new canned response |
+| `c!tag remove <name>` | Delete a canned response |
+| `c!tag list` | View all saved canned responses |
+| `c!tag show <name>` | Preview a canned response |
 | `c!ticket tag <name>` | Post a canned response inside a ticket |
 
 ---
 
 ## Adding a canned response
 ```bash
-c!callisto tag add <name> <text>
+c!tag add <name> <text>
 ```
 
 Saves a new canned response. `name` is the identifier used to post it and must be a single word containing only lowercase letters, numbers, hyphens, and underscores. `text` is the message that will be posted.
 
 **Examples:**
 ```bash
-c!callisto tag add greeting Hello! Thanks for opening a ticket. A staff member will be with you shortly.
-c!callisto tag add resolved Your issue has been resolved. Please open a new ticket if you need further assistance.
-c!callisto tag add moreinfo Could you please provide more information about your issue so we can better assist you?
+c!tag add greeting Hello! Thanks for opening a ticket. A staff member will be with you shortly.
+c!tag add resolved Your issue has been resolved. Please open a new ticket if you need further assistance.
+c!tag add moreinfo Could you please provide more information about your issue so we can better assist you?
 ```
 
 If a canned response with that name already exists, it will be overwritten with the new text.
 
 ## Removing a canned response
 ```bash
-c!callisto tag remove <name>
+c!tag remove <name>
 ```
 
 Permanently deletes the canned response.
 
 **Example:**
 ```bash
-c!callisto tag remove greeting
+c!tag remove greeting
 ```
 
 ## Viewing canned responses
 ```bash
-c!callisto tag list
+c!tag list
 ```
 
 Shows the names of all saved canned responses.
 ```bash
-c!callisto tag show <name>
+c!tag show <name>
 ```
 
 Previews the full text of a canned response without posting it in the ticket.
 
 **Example:**
 ```bash
-c!callisto tag show greeting
+c!tag show greeting
 ```
 
 ## Posting a canned response in a ticket
